@@ -1,0 +1,44 @@
+@import "./Variables/Variables"
+
+header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    height: 4.106rem
+    nav
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 34.15rem
+        padding-right: 1.25rem
+        @media (max-width: 768px)
+            width: 31.5rem
+            padding-right: 0
+        ul
+            display: flex
+            align-items: center
+            justify-content: space-between
+            width: 21.344rem
+            font-size: 1.1rem
+            font-weight: $Regular
+            color: #005BD5
+            list-style: none
+    li
+        &:hover
+            transition-timing-function: linear
+            color: rgba(0, 91, 213, 0.9)
+            border-bottom: solid #005BD5
+            font-weight: $Semi-Bold
+            cursor: pointer
+
+    button
+        background-color: #005BD5
+        color: #FFFFFF
+        font-weight: $Semi-Bold
+        letter-spacing: 0.188rem
+        border-radius: 1.25rem
+        border: none
+        height: 2.464rem
+        width: 8.964rem
+        &:hover
+            cursor: pointer

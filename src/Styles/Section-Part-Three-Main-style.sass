@@ -1,0 +1,64 @@
+@import "./Variables/Variables"
+#container_section_three
+    height: 51.328rem
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-evenly
+#box-title
+    color: #8B8B8B
+    text-align: center
+    width: 20rem
+h3
+    font-weight: $Regular
+h2
+    font-weight: $Extra-Bold
+    font-size: 2.33rem
+#grid_gallery
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: repeat(2, 1fr)
+    gap: 0.625rem
+
+#ctn_generic
+    background-color: black
+    display: flex
+    justify-content: space-around
+    width: 45vw
+#box_grey
+    background-color: #EEEEEE
+#box_blue
+    background-color: #005BD5
+
+#box-two-container
+    display: flex
+    justify-content: space-between
+    width: 38.419rem
+    span
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        text-align: center
+        height: 10.313rem
+        width: 9.063rem
+        &:hover
+            transform: scale(0.9)
+            transition: 0.3s
+            cursor: pointer
+        img
+            margin-bottom: 1rem
+    span:nth-child(odd)
+            h6
+                width: 5rem
+            background-color: #EEEEEE
+            color: #005BD5
+            letter-spacing: 0.018rem
+            font-weight: $Extra-Bold
+            font-size: 1.3rem
+    span:nth-child(even)
+        background-color: #005BD5
+        color: #FFFFFF
+        letter-spacing: 0.018rem
+        font-weight: $Extra-Bold
+        font-size: 1.3rem
